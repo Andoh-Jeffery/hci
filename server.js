@@ -84,8 +84,8 @@ app.post('/post/addnew', async (req, res) => {
       console.log(err);
     }
   });
-  res.send('data saved');
+  res.redirect('/');
   res.end;
-  res.redirect('index');
+  
 
 })
